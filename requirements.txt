@@ -1,0 +1,7 @@
+-r requirements.3rd
+
+-e git+https://github.com/vahana/slovar.git#egg=slovar
+-e git+https://github.com/vahana/prf.git#egg=prf
+-e git+https://github.com/vahana/datasets.git#egg=datasets
+-e git+https://github.com/vahana/jobs.git#egg=jobs
+-e .
