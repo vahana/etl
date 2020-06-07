@@ -19,3 +19,13 @@ See [datasets](https://github.com/vahana/datasets) repo for more info.
 
 Jobs is a library used to define and queue jobs with batching, scheduling. It exposes RESTful endpoints to create and monitor jobs.
 See [jobs](https://github.com/vahana/jobs) repo for more info.
+
+## Setup and Run
+```
+git clone https://github.com/vahana/etl.git
+cd etl
+pip install --no-deps -r requirements.txt
+#copy and edit config file
+cp config_tmpl.ini local.ini
+pserve local.ini
+```
