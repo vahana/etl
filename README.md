@@ -1,6 +1,6 @@
 # ETL Server
 
-This is a demo server showcasing how to use [prf](https://github.com/vahana/prf), [datasets](https://github.com/vahana/datasets) and [jobs](https://github.com/vahana/jobs) libraries to build a ETL RESTful service.
+This is a demo server showcasing how to use [prf](https://github.com/vahana/prf), [datasets](https://github.com/vahana/datasets) and [jobs](https://github.com/vahana/jobs) libraries to build an ETL RESTful service.
 It exposes end points to submit, monitor and collect ETL jobs using various database backends and Redis as job queue backend.
 It is built using PRF framework, which in turn is based on Pyramid.
 
