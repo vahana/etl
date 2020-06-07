@@ -23,6 +23,7 @@ See [jobs](https://github.com/vahana/jobs) repo for more info.
 ## Setup and Run
 ```
 git clone https://github.com/vahana/etl.git
+mkvirtualenv etl #or use other ways of creating virtual env
 cd etl
 pip install --no-deps -r requirements.txt
 #copy and edit config file
