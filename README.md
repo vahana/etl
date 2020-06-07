@@ -30,3 +30,4 @@ pip install --no-deps -r requirements.txt
 cp config_tmpl.ini local.ini
 pserve local.ini
 ```
+In a browser navigate to: [http://0.0.0.0:6544/api/_](http://0.0.0.0:6544/api/_) to get all defined endpoints.
